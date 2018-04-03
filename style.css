@@ -1,0 +1,182 @@
+*{
+  box-sizing:border-box;
+  outline: 2px solid rgba(200,0,0,.1);
+}
+
+body{
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  margin: 0;
+  margin-right: 25px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.top-design{
+  display: flex;
+  width: 100%;
+}
+
+.menu-princ{
+  display: flex;
+  background: #3a3839;
+  width: 100%;
+  padding-top: 3px;
+}  <p><hr></hr></p>
+
+.nav-menu-princip{
+  display: inline;
+}
+
+.menu-princ a{
+  color: white;
+  font-size: 15px;
+  padding: 28.25px;
+}
+
+li{
+   display: inline;
+}
+
+.container-content{
+  display: flex;
+  width: 100%;
+}
+
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 15px;
+}
+
+.events{
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  padding: 10px;
+}
+
+.event-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0px;
+  padding-top:  0px;
+}
+
+.event-container a{
+  font-size: 10px;
+  color: #3E7FBB;
+  padding-left: 170px;
+}
+
+.evt-img-col{
+   display: flex;
+   flex-wrap: wrap;
+   width: 50%;
+   padding-top: 0px;
+}
+
+.evt-img-col img{
+  width: 90%;
+  height: 70%;
+}
+
+.evt-text-col{
+   display: flex;
+   flex-wrap: wrap;
+   width: 50%;
+   font-size: 8px;
+}
+
+.evt-text-col h4{
+  color: #3E7FBB;
+  font-size: 12px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.camp-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  padding-bottom: 100px;
+}
+ .container img{
+   display: flex;
+   width: 55%;
+   padding: 15px;
+ }
+
+ .schart-container{
+   display: flex;
+ }
+
+ .schart-container img{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 100%;
+ }
+
+.schart-text-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 30px;
+  padding-bottom: 120px;
+}
+
+.box-search{
+  width: 300px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  background-color: #143bbc;
+  padding:8px;
+  line-height: 1.5px;
+}
+
+.box-search input{
+  width: 95%;
+  margin-right: 5px;
+}
+
+.box-search h5{
+  display: inline;
+  font-size: 10px;
+  width: 160px;
+}
+
+.icons{
+  display: inline;
+  color: red;
+  font-size: 15px;
+}
+
+.last-menu{
+  display: inline;
+  font-weight: bold;
+}
+
+.last-menu a{
+  font-size: 10px;
+  color: black;
+  margin-right: 150px;
+  padding-left: 10px;
+}
