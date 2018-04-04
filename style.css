@@ -48,8 +48,10 @@ li{
 }
 
 .container-content{
-  display: flex;
-  width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   margin:  0 auto;
+
 }
 
 .main-container{
