@@ -31,7 +31,7 @@ h2{
   background: #3a3839;
   width: 100%;
   padding-top: 3px;
-}  <p><hr></hr></p>
+}
 
 .nav-menu-princip{
   display: inline;
@@ -65,14 +65,15 @@ li{
   display: flex;
   flex-wrap: wrap;
   width: 20%;
-  padding: 10px;
+  height: 50px;
 }
 
 .event-container{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 0px;
-  padding-top:  0px;
+  width: 100%;
+  padding: 10px;
+
 }
 
 .event-container a{
@@ -82,27 +83,24 @@ li{
 }
 
 .evt-img-col{
-   display: flex;
-   flex-wrap: wrap;
    width: 50%;
-   padding-top: 0px;
+   height: 100px;
+
 }
 
 .evt-img-col img{
   width: 90%;
-  height: 70%;
+  height: 90%;
 }
 
 .evt-text-col{
-   display: flex;
-   flex-wrap: wrap;
    width: 50%;
    font-size: 8px;
 }
 
 .evt-text-col h4{
   color: #3E7FBB;
-  font-size: 12px;
+  font-size: 8px;
 }
 
 .container{
@@ -123,6 +121,10 @@ li{
    width: 55%;
    padding: 15px;
  }
+
+.div-container{
+   width: 1100px;
+}
 
  .schart-container{
    display: flex;
